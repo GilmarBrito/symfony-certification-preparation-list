@@ -173,7 +173,7 @@ The exam topics are copied from the [official exam topics](https://certification
     - [PHPUnit bridge](/topics/automated-tests.md#phpunit-bridge)
     - [Handling legacy deprecated code](/topics/automated-tests.md#handling-legacy-deprecated-code)
 - [Miscellaneous](/topics/miscellaneous.md)
-    - [Configuration (including DotEnv and ExpressionLanguage components)](/topics/miscellaneous.md#configuration-including-dot-env-and-expression-language-components)
+  - [Configuration (including DotEnv and ExpressionLanguage components)](/topics/miscellaneous.md#configuration-including-dot-env-and-expression-language-components)
     - [Error handling](/topics/miscellaneous.md#error-handling)
     - [Code debugging](/topics/miscellaneous.md#code-debugging)
     - [Deployment best practices](/topics/miscellaneous.md#deployment-best-practices)
