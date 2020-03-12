@@ -10,11 +10,11 @@ If you're looking for other people who are interested (or have) certification. P
 
 Please help add new links/info. We currently have not all topics covered. For more information refer to the [Contributing page](contributing.md).
 
-The exam topics are copied from the [official exam topics](https://sensiolabs.com/en/symfony/certification.html). The master branch contains information for the 4.0 certification. For 3.0, check the 3.0 branch. We do not have a list for 2.3 certification.
+The exam topics are copied from the [official exam topics](https://certification.symfony.com/). The master branch contains information for the 5.0 certification.
 
 ## Table of Contents
 
-- [PHP and Web Security](/topics/php-and-web-security.md)
+- [PHP](/topics/php-and-web-security.md)
     - [PHP API up to PHP 7.2 version](/topics/php-and-web-security.md#php-api-up-to-php-72-version)
     - [Object Oriented Programming](/topics/php-and-web-security.md#object-oriented-programming)
     - [Namespaces](/topics/php-and-web-security.md#namespaces)
@@ -25,7 +25,7 @@ The exam topics are copied from the [official exam topics](https://sensiolabs.co
     - [Traits](/topics/php-and-web-security.md#traits)
     - [PHP extensions](/topics/php-and-web-security.md#php-extensions)
     - [SPL](/topics/php-and-web-security.md#spl)
-    - [Web security (XSS, CSRF, etc.)](/topics/php-and-web-security.md#web-security-xss-csrf-etc)
+    <!-- - [Web security (XSS, CSRF, etc.)](/topics/php-and-web-security.md#web-security-xss-csrf-etc) -->
 - [HTTP](/topics/http.md)
     - [Client / Server interaction](/topics/http.md#client--server-interaction)
     - [Status codes](/topics/http.md#status-codes)
@@ -36,12 +36,13 @@ The exam topics are copied from the [official exam topics](https://sensiolabs.co
     - [Caching](/topics/http.md#caching)
     - [Content negotiation](/topics/http.md#content-negotiation)
     - [Language detection](/topics/http.md#language-detection)
+    - [Symfony HttpClient component - missing research](/topics/http.md#symfony-http-client-component)
 - [Symfony Architecture](/topics/symfony-architecture.md)
     - [Symfony Flex](/topics/symfony-architecture.md#symfony-flex)
     - [License](/topics/symfony-architecture.md#license)
     - [Components](/topics/symfony-architecture.md#components)
     - [Bridges](/topics/symfony-architecture.md#bridges)
-    - [Configuration](/topics/symfony-architecture.md#configuration)
+    <!-- - [Configuration](/topics/symfony-architecture.md#configuration) -->
     - [Code organization](/topics/symfony-architecture.md#code-organization)
     - [Request handling](/topics/symfony-architecture.md#request-handling)
     - [Exception handling](/topics/symfony-architecture.md#exception-handling)
@@ -50,7 +51,11 @@ The exam topics are copied from the [official exam topics](https://sensiolabs.co
     - [Release management](/topics/symfony-architecture.md#release-management)
     - [Backward compatibility promise](/topics/symfony-architecture.md#backward-compatibility-promise)
     - [Deprecations best practices](/topics/symfony-architecture.md#deprecations-best-practices)
-- [Standardization](/topics/standardization.md)
+    - [Framework overloading](/topics/symfony-architecture.md#framework-overloading)
+    - [Release management and roadmap schedule](/topics/symfony-architecture.md#release-management-and-roadmap-schedule)
+    - [Framework interoperability and PSRs](/topics/symfony-architecture.md#framework-interoperability-and-ps-rs)
+    - [Naming conventions](/topics/symfony-architecture.md#naming-conventions)
+<!-- - [Standardization](/topics/standardization.md)
     - [Release management and roadmap schedule](/topics/standardization.md#release-management-and-roadmap-schedule)
     - [Framework interoperability and PSRs](/topics/standardization.md#framework-interoperability-and-psrs)
     - [Naming conventions](/topics/standardization.md#naming-conventions)
@@ -59,10 +64,10 @@ The exam topics are copied from the [official exam topics](https://sensiolabs.co
     - [Composer packages handling](/topics/standardization.md#composer-packages-handling)
     - [Development best practices](/topics/standardization.md#development-best-practices)
     - [Framework overloading](/topics/standardization.md#framework-overloading)
-    - [Semantic versioning](/topics/standardization.md#semantic-versioning)
+    - [Semantic versioning](/topics/standardization.md#semantic-versioning) -->
 - [Controllers](/topics/controllers.md)
     - [Naming conventions](/topics/controllers.md#naming-conventions)
-    - [The base Controller class](/topics/controllers.md#the-base-controller-class)
+    - [The base AbstractController class - missing research](/topics/controllers.md#the-base-controller-class)
     - [The request](/topics/controllers.md#the-request)
     - [The response](/topics/controllers.md#the-response)
     - [The cookies](/topics/controllers.md#the-cookies)
@@ -168,10 +173,18 @@ The exam topics are copied from the [official exam topics](https://sensiolabs.co
     - [PHPUnit bridge](/topics/automated-tests.md#phpunit-bridge)
     - [Handling legacy deprecated code](/topics/automated-tests.md#handling-legacy-deprecated-code)
 - [Miscellaneous](/topics/miscellaneous.md)
+    - [Configuration (including DotEnv and ExpressionLanguage
+    components)](/topics/miscellaneous.md#configuration-including-dot-env-and-expression-language
+    components)
     - [Error handling](/topics/miscellaneous.md#error-handling)
     - [Code debugging](/topics/miscellaneous.md#code-debugging)
     - [Deployment best practices](/topics/miscellaneous.md#deployment-best-practices)
     - [Process and Serializer components](/topics/miscellaneous.md#process-and-serializer-components)
-    - [Data collectors](/topics/miscellaneous.md#data-collectors)
-    - [Web Profiler and Web Debug Toolbar](/topics/miscellaneous.md#web-profiler-and-web-debug-toolbar)
-    - [Internationalization and localization](/topics/miscellaneous.md#internationalization-and-localization)
+    - [Messenger component - missing research](/topics/miscellaneous.md#process-and-serializer-components)
+    - [Mime and Mailer components - missing research](/topics/miscellaneous.md#process-and-serializer-components)
+    - [Filesystem and Finder components - missing research](/topics/miscellaneous.md#process-and-serializer-components)
+    - [Lock component - missing research](/topics/miscellaneous.md#process-and-serializer-components)
+    - [Web Profiler, Web Debug Toolbar and Data collectors](/topics/miscellaneous.md#web-profiler-web-debug-toolbar-and-data-collectors)
+    <!-- - [Data collectors](/topics/miscellaneous.md#data-collectors)
+    - [Web Profiler and Web Debug Toolbar](/topics/miscellaneous.md#web-profiler-and-web-debug-toolbar) -->
+    - [Internationalization and localization (and Intl component)](/topics/miscellaneous.md#internationalization-and-localization)
